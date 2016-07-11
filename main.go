@@ -4,6 +4,8 @@ import (
 	"fmt"
 	"strconv"
 	"strings"
+
+	p1to10 "github.com/3ygun/projecteuler/p1to10"
 )
 
 func main() {
@@ -30,7 +32,9 @@ func runQuestion(qNum int) {
 
 	switch qNum {
 	case 1:
-		question1()
+		p1to10.Question1()
+	case 2:
+		p1to10.Question2()
 	}
 
 	fmt.Println()
