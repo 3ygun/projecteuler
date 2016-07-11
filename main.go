@@ -26,12 +26,12 @@ func main() {
 }
 
 func runQuestion(qNum int) {
-	var answer string
+	fmt.Println()
 
 	switch qNum {
 	case 1:
-		answer = question1()
+		question1()
 	}
 
-	fmt.Printf("\n\t%s\n", answer)
+	fmt.Println()
 }

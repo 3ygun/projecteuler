@@ -1,6 +1,9 @@
 package main
 
-import "strconv"
+import (
+	"fmt"
+	"strconv"
+)
 
 /**
 
@@ -9,7 +12,7 @@ If we list all the natural numbers below 10 that are multiples of 3 or 5, we get
 Find the sum of all the multiples of 3 or 5 below 1000.
 
 **/
-func question1() string {
+func question1() {
 	total := 0
 	to := 1000
 
@@ -19,5 +22,5 @@ func question1() string {
 		}
 	}
 
-	return "Q1: " + strconv.Itoa(total)
+	fmt.Printf("\tQ1: " + strconv.Itoa(total))
 }
