@@ -9,7 +9,7 @@ If we list all the natural numbers below 10 that are multiples of 3 or 5, we get
 Find the sum of all the multiples of 3 or 5 below 1000.
 
 **/
-func problem1() string {
+func question1() string {
 	total := 0
 	to := 1000
 
@@ -19,5 +19,5 @@ func problem1() string {
 		}
 	}
 
-	return "Problem 1: " + strconv.Itoa(total)
+	return "Q1: " + strconv.Itoa(total)
 }
