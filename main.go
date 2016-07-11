@@ -35,6 +35,8 @@ func runQuestion(qNum int) {
 		p1to10.Question1()
 	case 2:
 		p1to10.Question2()
+	case 3:
+		p1to10.Question3()
 	}
 
 	fmt.Println()
